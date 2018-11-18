@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <!--<script src="https://unpkg.com/lodash@4.16.6"></script>-->
+  </head>
+  <body>
+    <header>
+      <div class="contact">
+
+        <div class="left">
+          <nav id="main-nav">
+            <ul class="main-menu">
+              <li><a href="./index.html">Главная</a></li>
+              <li><a href="./technical.html">Техника</a></li>
+              <li><a href="./knitting.html">Вязание</a></li>
+              <li><a href="./contact.html">Контакты</a></li>
+              <li><a href="./design.html">Условные обозначения</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+      <!--img src="img/hamburger1.png" alt="">-->
+
+      <!--<div id="hamburger-menu"><a class="img-replace" href="#">Menu</a></div>-->
+      <div id="hamburger-menu">
+        <div class="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 73.168 73.168" style="enable-background:new 0 0 73.168 73.168;" xml:space="preserve">
+                <path d="M4.242,14.425h64.684c2.344,0,4.242-1.933,4.242-4.324c0-2.385-1.898-4.325-4.242-4.325H4.242     C1.898,5.776,0,7.716,0,10.101C0,12.493,1.898,14.425,4.242,14.425z M68.926,32.259H4.242C1.898,32.259,0,34.2,0,36.584     c0,2.393,1.898,4.325,4.242,4.325h64.684c2.344,0,4.242-1.933,4.242-4.325C73.168,34.2,71.27,32.259,68.926,32.259z      M68.926,58.742H4.242C1.898,58.742,0,60.683,0,63.067c0,2.393,1.898,4.325,4.242,4.325h64.684c2.344,0,4.242-1.935,4.242-4.325     C73.168,60.683,71.27,58.742,68.926,58.742z" fill="#FFFFFF"/>
+          </svg>
+        </div>
+      </div>
+
+      <div id="shadow-layer"></div>
+    </header>
+
+    <section class="contacts">
+      <p>На этой странице вы можете отправить любой вопрос, а так же свои замечания и пожелания.</p>
+      <!--<form class="form" method="post">
+        <input type="text" name="" value="" placeholder="Ваше имя (обязательно)">
+        <input type="text" name="" value="" placeholder="Ваш e-mail (обязательно)">
+        <input type="text" name="" value="" placeholder="Тема">
+        <textarea type="text" name="" value="" placeholder="Сообщение"></textarea>
+        <button type="button" name="button">Отправить</button>
+      </form>-->
+
+
+    <!--<form name="ff1" method="post" onsubmit="return validateForm();">
+       <input type="text" name="email" id="fremail" placeholder="your@email.com" />
+       <input type="text" name="title" id="frtitle" placeholder="Title" />
+       <input type="text" name="url" id="frurl" placeholder="http://yourwebsite.com/" />
+       <input type="submit" name="Submit" value="Continue" />
+     </form>-->
+
+     <form action="/register" method="post">
+
+    <div id="messenger"></div>
+         <label>Ваше имя:</label>
+          <input name="login" type="text" value="" />
+
+          <label>Ваш е-mail:</label>
+          <input id="email" type="text" name="e-mail" value=""/>
+
+          <label>Тема:</label>
+           <input name="note" type="text" value="" />
+
+           <label>Сообщение:</label>
+           <textarea name="textarea"></textarea>
+
+          <!--<label>Пароль:</label>
+          <input id="pas1" type="password" name="pass" value=""/>-->
+
+         <div class="send">
+        <input type="submit" name="submit" value="Отправить"/>
+       </div>
+    </form>
+
+    </section>
+
+    <!--<script src="./src/index.js"></script>-->
+    <!--<script src="main.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>-->
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>
